@@ -1,0 +1,12 @@
+:root{--paper:#fbf8f3;--ink:#2a1d1c;--shu:#c8152b;--muted:#6f6360}
+@media (prefers-color-scheme:dark){:root{--paper:#1b1716;--ink:#f1e9e4;--muted:#b3a6a1}}
+*{box-sizing:border-box}
+body{margin:0;background:var(--paper);color:var(--ink);font:17px/1.6 -apple-system,BlinkMacSystemFont,"Hiragino Sans","Helvetica Neue",sans-serif}
+main{max-width:680px;margin:0 auto;padding:48px 20px 64px}
+.mark{font:600 13px/1 ui-serif,"Hiragino Mincho ProN",serif;letter-spacing:.3em;color:var(--shu)}
+h1{font:800 34px/1.15 ui-serif,"Hiragino Mincho ProN",Georgia,serif;margin:10px 0 6px}
+h2{font-size:19px;margin:34px 0 6px}
+p,li{color:var(--ink)}
+.muted{color:var(--muted);font-size:15px}
+a{color:var(--shu)}
+hr{border:0;border-top:1px solid color-mix(in srgb,var(--ink) 20%,transparent);margin:36px 0}
